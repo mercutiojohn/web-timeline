@@ -1,0 +1,212 @@
+{
+  "title": "AI 大模型多厂商编年史",
+  "subtitle": "2022.01 — 2026.09 · 全球 LLM/AGI 加速发展与各厂商发版时间战线横向对比",
+  "range": {
+    "start": "2022-01",
+    "end": "2026-09"
+  },
+  "vendors": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "region": "overseas",
+      "color": "#10A37F",
+      "milestones": [
+        { "date": "2022-01", "label": "InstructGPT", "desc": "RLHF 对齐指令跟随原型，ChatGPT 的前置" },
+        { "date": "2022-04", "label": "DALL·E 2", "desc": "文生图模型，AIGC 图像赛道引爆" },
+        { "date": "2022-09", "label": "Whisper 开源", "desc": "多语种语音识别模型，本地 ASR 普及" },
+        { "date": "2022-11", "label": "ChatGPT (GPT-3.5)", "desc": "11.30 发布，5 天破百万用户，AI 全民拐点" },
+        { "date": "2023-02", "label": "ChatGPT Plus", "desc": "20 美元/月付费订阅上线" },
+        { "date": "2023-03", "label": "GPT-4", "desc": "图文多模态，通过律师资格考试" },
+        { "date": "2023-09", "label": "GPT-4V", "desc": "原生图像理解多模态读图" },
+        { "date": "2023-11", "label": "GPT-4 Turbo + GPTs", "desc": "DevDay：128K 上下文，无代码自定义助手" },
+        { "date": "2024-01", "label": "Sora 预告", "desc": "文生视频模型预告，长时序高连贯" },
+        { "date": "2024-05", "label": "GPT-4o", "desc": "文本+图像+音频实时多模态，低延迟语音" },
+        { "date": "2024-09", "label": "o1-preview", "desc": "推理模型，显式思考范式，数学竞赛大幅提升" },
+        { "date": "2025-01", "label": "o3", "desc": "深度推理模型迭代" },
+        { "date": "2025-02", "label": "Sora 开放测试", "desc": "向 ChatGPT Plus 用户开放" },
+        { "date": "2025-08", "label": "GPT-5", "desc": "新一代旗舰模型发布" },
+        { "date": "2025-09", "label": "o4", "desc": "数学与科学推理进一步提升" },
+        { "date": "2026-04", "label": "GPT-5.5", "desc": "旗舰模型中期迭代" },
+        { "date": "2026-07", "label": "GPT-5.6 (Sol/Terra/Luna)", "desc": "多版本族发布" },
+        { "date": "2026-09", "label": "GPT-6 Astra / Sol&Luna", "desc": "Astra 发布，Sol & Luna 商用上线" }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "region": "overseas",
+      "color": "#D97757",
+      "milestones": [
+        { "date": "2023-03", "label": "Claude 1", "desc": "提出宪法 AI，对齐思路差异化" },
+        { "date": "2023-07", "label": "Claude 2", "desc": "100K 上下文窗口，支持长文档" },
+        { "date": "2024-03", "label": "Claude 3", "desc": "Opus/Sonnet/Haiku 三档，多项基准超越 GPT-4" },
+        { "date": "2024-07", "label": "Claude 3.5 Sonnet", "desc": "成本低综合能力强，企业 API 热门" },
+        { "date": "2025-03", "label": "Claude 3.7", "desc": "长上下文，复杂工具调用增强" },
+        { "date": "2025-05", "label": "Claude 4", "desc": "Sonnet/Opus 新一代" },
+        { "date": "2025-08", "label": "Claude 4.1 Opus", "desc": "旗舰迭代" },
+        { "date": "2025-09", "label": "Claude 4.5", "desc": "Sonnet/Haiku 升级" },
+        { "date": "2026-02", "label": "Claude 4.6 Opus", "desc": "旗舰迭代" },
+        { "date": "2026-04", "label": "Claude 4.7 Opus", "desc": "旗舰迭代" },
+        { "date": "2026-05", "label": "Claude 4.8 Opus", "desc": "旗舰迭代" },
+        { "date": "2026-07", "label": "Claude 5 Opus", "desc": "新一代旗舰" },
+        { "date": "2026-09", "label": "Claude 5.5 Opus", "desc": "旗舰迭代" }
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google (Gemini)",
+      "region": "overseas",
+      "color": "#4285F4",
+      "milestones": [
+        { "date": "2023-02", "label": "Bard (LaMDA)", "desc": "对标 ChatGPT，演示出现事实错误" },
+        { "date": "2023-05", "label": "PaLM 2", "desc": "Bard 底层模型，多语言代码增强" },
+        { "date": "2023-12", "label": "Gemini 1.0", "desc": "Ultra/Pro/Nano 原生多模态" },
+        { "date": "2024-05", "label": "Gemini 1.5 Pro", "desc": "百万级超长上下文" },
+        { "date": "2024-08", "label": "Gemini 1.5 Flash", "desc": "低成本高速多模态" },
+        { "date": "2024-12", "label": "Veo 2", "desc": "视频生成，连贯性提升" },
+        { "date": "2025-08", "label": "Gemini 2", "desc": "统一图文音视频多模态底座" },
+        { "date": "2025-10", "label": "Veo 3", "desc": "新一代视频模型" },
+        { "date": "2025-11", "label": "Gemini 3 Pro", "desc": "多项基准屠榜，统一多模态+视频生成" }
+      ]
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "region": "overseas",
+      "color": "#0866FF",
+      "milestones": [
+        { "date": "2023-02", "label": "LLaMA 1", "desc": "仅科研许可，权重后续泄露，引爆开源生态" },
+        { "date": "2023-07", "label": "Llama 2", "desc": "允许商用，开源大模型产业爆发" },
+        { "date": "2024-02", "label": "Llama 3", "desc": "8B/70B，追赶闭源能力" },
+        { "date": "2024-07", "label": "Llama 3.1", "desc": "405B 超大参数开源模型" },
+        { "date": "2025-02", "label": "Llama 3.2", "desc": "加入小尺寸端侧模型" }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "region": "overseas",
+      "color": "#4D6BFE",
+      "milestones": [
+        { "date": "2024-01", "label": "DeepSeek LLM", "desc": "代码能力突出的初代模型" },
+        { "date": "2024-09", "label": "DeepSeek-V2.5", "desc": "统一对话+代码" },
+        { "date": "2024-12", "label": "DeepSeek-V3", "desc": "671B MoE 开源，性能对标闭源、成本极低" },
+        { "date": "2025-01", "label": "DeepSeek-R1", "desc": "开源推理模型，引爆海内外开源社区" },
+        { "date": "2025-09", "label": "DeepSeek-V3.1", "desc": "中期迭代" },
+        { "date": "2025-12", "label": "DeepSeek-V3.2", "desc": "持续迭代" },
+        { "date": "2026-04", "label": "DeepSeek-V4 预览", "desc": "新一代旗舰预览版" },
+        { "date": "2026-09", "label": "DeepSeek-V4.1 Flash", "desc": "原生多模态" }
+      ]
+    },
+    {
+      "id": "xai",
+      "name": "xAI (Grok)",
+      "region": "overseas",
+      "color": "#000000",
+      "milestones": [
+        { "date": "2023-11", "label": "Grok 1.0", "desc": "初代模型，接入 X" },
+        { "date": "2024-03", "label": "Grok 1.5", "desc": "能力升级" },
+        { "date": "2024-08", "label": "Grok 2", "desc": "多模态升级" },
+        { "date": "2024-12", "label": "Grok 2.5", "desc": "长上下文增强" },
+        { "date": "2025-06", "label": "Grok 3", "desc": "原生推理模型" },
+        { "date": "2026-01", "label": "Grok 3.5 Omni", "desc": "全模态统一" },
+        { "date": "2026-07", "label": "Grok 4", "desc": "新一代旗舰" }
+      ]
+    },
+    {
+      "id": "overseas-others",
+      "name": "其他海外 (Mistral/Stability)",
+      "region": "overseas",
+      "color": "#A855F7",
+      "milestones": [
+        { "date": "2022-06", "label": "Stable Diffusion", "desc": "Stability 开源文生图，本地 AIGC 普及" },
+        { "date": "2023-08", "label": "SDXL 1.0", "desc": "Stability 图像模型迭代" },
+        { "date": "2024-04", "label": "Codestral", "desc": "Mistral 代码模型" },
+        { "date": "2025-06", "label": "Mistral Large 2", "desc": "旗舰模型" },
+        { "date": "2026-03", "label": "Mistral Small 4", "desc": "Apache 2.0 开源商用" }
+      ]
+    },
+    {
+      "id": "baidu",
+      "name": "百度 (文心)",
+      "region": "china",
+      "color": "#2932C9",
+      "milestones": [
+        { "date": "2023-03", "label": "文心一言发布", "desc": "国内首个面向公众的大模型产品" },
+        { "date": "2023-12", "label": "文心大模型备案通过", "desc": "首批备案，正式上线" },
+        { "date": "2024-06", "label": "文心多模态迭代", "desc": "行业模型与多模态持续迭代" },
+        { "date": "2026-04", "label": "文心 Agent 落地", "desc": "Agent 与工业大模型落地" }
+      ]
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里 (通义 Qwen)",
+      "region": "china",
+      "color": "#FF6A00",
+      "milestones": [
+        { "date": "2023-04", "label": "通义千问邀请测试", "desc": "国内大模型对外测试" },
+        { "date": "2023-08", "label": "Qwen-7B 开源", "desc": "首个开源基础模型" },
+        { "date": "2023-09", "label": "Qwen-VL", "desc": "初代视觉多模态" },
+        { "date": "2024-02", "label": "Qwen1.5 全系列", "desc": "开源家族大规模更新" },
+        { "date": "2024-03", "label": "Qwen-Audio", "desc": "语音模型" },
+        { "date": "2024-06", "label": "Qwen2 系列", "desc": "多语言代码全面增强" },
+        { "date": "2024-09", "label": "Qwen2.5 系列", "desc": "基础模型迭代" },
+        { "date": "2025-01", "label": "Qwen2.5-VL + Max", "desc": "视觉多模态 + 旗舰 MoE" },
+        { "date": "2025-03", "label": "QwQ-32B + Qwen2.5-Omni", "desc": "推理模型 + 音视图全模态" },
+        { "date": "2025-04", "label": "Qwen3 系列", "desc": "新一代开源家族" },
+        { "date": "2025-10", "label": "Qwen3-VL", "desc": "新一代视觉模型" },
+        { "date": "2026-03", "label": "Qwen3.5-Omni", "desc": "实时全模态" },
+        { "date": "2026-08", "label": "Qwen3.8 旗舰 MoE", "desc": "旗舰级开源模型" },
+        { "date": "2026-09", "label": "Qwen3.8-Omni-Flash", "desc": "最新全模态模型" }
+      ]
+    },
+    {
+      "id": "iflytek",
+      "name": "科大讯飞 (星火)",
+      "region": "china",
+      "color": "#E64415",
+      "milestones": [
+        { "date": "2023-06", "label": "讯飞星火发布", "desc": "认知大模型发布" },
+        { "date": "2023-12", "label": "星火备案通过", "desc": "首批备案落地" },
+        { "date": "2024-08", "label": "星火行业模型", "desc": "医疗、教育行业模型迭代" }
+      ]
+    },
+    {
+      "id": "bytedance",
+      "name": "字节跳动 (豆包)",
+      "region": "china",
+      "color": "#FE2C55",
+      "milestones": [
+        { "date": "2023-07", "label": "云雀大模型测试", "desc": "对外测试" },
+        { "date": "2023-12", "label": "豆包 C 端上线", "desc": "面向 C 端用户正式推出" },
+        { "date": "2024-09", "label": "豆包多模态迭代", "desc": "多模态、视频生成迭代" },
+        { "date": "2025-05", "label": "端侧豆包落地", "desc": "手机本地大模型规模化落地" }
+      ]
+    },
+    {
+      "id": "moonshot",
+      "name": "月之暗面 (Kimi)",
+      "region": "china",
+      "color": "#111827",
+      "milestones": [
+        { "date": "2024-03", "label": "Kimi 上线", "desc": "200 万 token 超长文本，长文档阅读出圈" },
+        { "date": "2024-10", "label": "Kimi 多模态升级", "desc": "多模态能力增强" },
+        { "date": "2025-04", "label": "Kimi Agent 迭代", "desc": "智能体能力迭代" }
+      ]
+    },
+    {
+      "id": "cn-policy",
+      "name": "国内政策主线",
+      "region": "policy",
+      "color": "#64748B",
+      "milestones": [
+        { "date": "2023-04", "label": "生成式 AI 办法征求意见", "desc": "监管框架雏形" },
+        { "date": "2023-06", "label": "暂行办法公布", "desc": "《生成式人工智能服务管理暂行办法》" },
+        { "date": "2023-08", "label": "暂行办法实施", "desc": "大模型开启备案流程" },
+        { "date": "2023-12", "label": "首批备案落地", "desc": "国内首批大模型正式上线" },
+        { "date": "2026-03", "label": "AI 监管细则完善", "desc": "版权、数据合规细则持续落地" }
+      ]
+    }
+  ]
+}
