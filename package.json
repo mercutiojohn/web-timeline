@@ -1,0 +1,11 @@
+{
+  "name": "ai-timeline-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "dev": "pnpm --filter @timeline/web-timeline dev",
+    "build": "pnpm --filter @timeline/web-timeline build",
+    "lint": "pnpm --filter @timeline/web-timeline lint"
+  }
+}
